@@ -1,19 +1,19 @@
 
-#ifndef KING_H
-#define KING_H
+#ifndef PAWN_H
+#define PAWN_H
 
 // Forward declaration of Board class
 class Board;
 
-class King {
+class Pawn {
 public:
     /**
      * Constructor.
-     * @param row       The current row of the king.
-     * @param col       The current column of the king.
-     * @param isBlack   The color of the king.
+     * @param row       The current row of the pawn.
+     * @param col       The current column of the pawn.
+     * @param isBlack   The color of the pawn.
      */
-    King(int row, int col, bool isBlack);
+    Pawn(int row, int col, bool isBlack);
 
     /**
      * Checks if a move to a destination square is legal.
@@ -22,7 +22,7 @@ public:
      * @param endCol    The column of the destination square.
      * @return True if the move to the destination square is legal, false otherwise.
      */
-    bool isMoveLegal(Board* board, int endRow, int endCol) const;
+    bool isMoveLegal(Board* board, int endRow, int endCol);
 
 private:
     /**
@@ -41,4 +41,4 @@ private:
     bool isBlack;
 };
 
-#endif //KING_H
+#endif //PAWN_H

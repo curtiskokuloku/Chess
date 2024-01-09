@@ -1,19 +1,19 @@
 
-#ifndef KING_H
-#define KING_H
+#ifndef ROOK_H
+#define ROOK_H
 
 // Forward declaration of Board class
 class Board;
 
-class King {
+class Rook {
 public:
     /**
      * Constructor.
-     * @param row       The current row of the king.
-     * @param col       The current column of the king.
-     * @param isBlack   The color of the king.
+     * @param row       The current row of the rook.
+     * @param col       The current column of the rook.
+     * @param isBlack   The color of the rook.
      */
-    King(int row, int col, bool isBlack);
+    Rook(int row, int col, bool isBlack);
 
     /**
      * Checks if a move to a destination square is legal.
@@ -41,4 +41,4 @@ private:
     bool isBlack;
 };
 
-#endif //KING_H
+#endif //ROOK_H

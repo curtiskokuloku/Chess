@@ -6,7 +6,7 @@
 #include <vector>
 #include <cmath>
 
-class Piece;
+#include "../lib/Piece.h"
 
 class Board {
 public:
@@ -14,11 +14,6 @@ public:
      * Default Constructor
      */
     Board();
-
-    /**
-     * Destructor for cleaning up dynamically allocated memory
-     */
-    ~Board();
 
     // Accessor Methods
 
@@ -28,7 +23,7 @@ public:
      * @param col       The column of the piece to be accessed.
      * @return          The piece at the specified row and column of the board.
      */
-    Piece* getPiece(int row, int col) const;
+    [[nodiscard]] Piece* getPiece(int row, int col) const;
 
     /**
      * Sets the piece at a particular row and column of the board.
@@ -64,7 +59,7 @@ public:
      * @param endCol    The ending column of the move.
      * @return True if the source and destination squares are adjacent, false otherwise.
      */
-    bool verifyAdjacent(int startRow, int startCol, int endRow, int endCol);
+    static bool verifyAdjacent(int startRow, int startCol, int endRow, int endCol);
 
     /**
      * Verifies that a source and destination are in the same row and that there are no pieces on squares
@@ -123,7 +118,7 @@ public:
     void display();
 
     /**
-     * Removes evrey piece from the board.
+     * Removes every piece from the board.
      */
     void clear();
 

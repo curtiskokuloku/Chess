@@ -1,4 +1,3 @@
-//
 
 #ifndef BISHOP_H
 #define BISHOP_H
@@ -23,7 +22,7 @@ public:
      * @param endCol    The column of the destination square.
      * @return True if the move to the destination square is legal, false otherwise.
      */
-    bool isMoveLegal(Board* board, int endRow, int endCol);
+    bool isMoveLegal(Board* board, int endRow, int endCol) const;
 
 private:
     /**

@@ -55,6 +55,60 @@ build CMakeFiles/app.dir/main.cpp.o: CXX_COMPILER__app_unscanned_Debug /Users/cu
   OBJECT_DIR = CMakeFiles/app.dir
   OBJECT_FILE_DIR = CMakeFiles/app.dir
 
+build CMakeFiles/app.dir/src/Bishop.cpp.o: CXX_COMPILER__app_unscanned_Debug /Users/curtiskokuloku/Documents/GitHub/Chess/app/src/Bishop.cpp || cmake_object_order_depends_target_app
+  DEP_FILE = CMakeFiles/app.dir/src/Bishop.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/app.dir
+  OBJECT_FILE_DIR = CMakeFiles/app.dir/src
+
+build CMakeFiles/app.dir/src/Board.cc.o: CXX_COMPILER__app_unscanned_Debug /Users/curtiskokuloku/Documents/GitHub/Chess/app/src/Board.cc || cmake_object_order_depends_target_app
+  DEP_FILE = CMakeFiles/app.dir/src/Board.cc.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/app.dir
+  OBJECT_FILE_DIR = CMakeFiles/app.dir/src
+
+build CMakeFiles/app.dir/src/Fen.cc.o: CXX_COMPILER__app_unscanned_Debug /Users/curtiskokuloku/Documents/GitHub/Chess/app/src/Fen.cc || cmake_object_order_depends_target_app
+  DEP_FILE = CMakeFiles/app.dir/src/Fen.cc.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/app.dir
+  OBJECT_FILE_DIR = CMakeFiles/app.dir/src
+
+build CMakeFiles/app.dir/src/King.cc.o: CXX_COMPILER__app_unscanned_Debug /Users/curtiskokuloku/Documents/GitHub/Chess/app/src/King.cc || cmake_object_order_depends_target_app
+  DEP_FILE = CMakeFiles/app.dir/src/King.cc.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/app.dir
+  OBJECT_FILE_DIR = CMakeFiles/app.dir/src
+
+build CMakeFiles/app.dir/src/Knight.cc.o: CXX_COMPILER__app_unscanned_Debug /Users/curtiskokuloku/Documents/GitHub/Chess/app/src/Knight.cc || cmake_object_order_depends_target_app
+  DEP_FILE = CMakeFiles/app.dir/src/Knight.cc.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/app.dir
+  OBJECT_FILE_DIR = CMakeFiles/app.dir/src
+
+build CMakeFiles/app.dir/src/Pawn.cc.o: CXX_COMPILER__app_unscanned_Debug /Users/curtiskokuloku/Documents/GitHub/Chess/app/src/Pawn.cc || cmake_object_order_depends_target_app
+  DEP_FILE = CMakeFiles/app.dir/src/Pawn.cc.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/app.dir
+  OBJECT_FILE_DIR = CMakeFiles/app.dir/src
+
+build CMakeFiles/app.dir/src/Piece.cc.o: CXX_COMPILER__app_unscanned_Debug /Users/curtiskokuloku/Documents/GitHub/Chess/app/src/Piece.cc || cmake_object_order_depends_target_app
+  DEP_FILE = CMakeFiles/app.dir/src/Piece.cc.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/app.dir
+  OBJECT_FILE_DIR = CMakeFiles/app.dir/src
+
+build CMakeFiles/app.dir/src/Queen.cc.o: CXX_COMPILER__app_unscanned_Debug /Users/curtiskokuloku/Documents/GitHub/Chess/app/src/Queen.cc || cmake_object_order_depends_target_app
+  DEP_FILE = CMakeFiles/app.dir/src/Queen.cc.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/app.dir
+  OBJECT_FILE_DIR = CMakeFiles/app.dir/src
+
+build CMakeFiles/app.dir/src/Rook.cc.o: CXX_COMPILER__app_unscanned_Debug /Users/curtiskokuloku/Documents/GitHub/Chess/app/src/Rook.cc || cmake_object_order_depends_target_app
+  DEP_FILE = CMakeFiles/app.dir/src/Rook.cc.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/app.dir
+  OBJECT_FILE_DIR = CMakeFiles/app.dir/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target app
@@ -63,7 +117,7 @@ build CMakeFiles/app.dir/main.cpp.o: CXX_COMPILER__app_unscanned_Debug /Users/cu
 #############################################
 # Link the executable app
 
-build app: CXX_EXECUTABLE_LINKER__app_Debug CMakeFiles/app.dir/main.cpp.o
+build app: CXX_EXECUTABLE_LINKER__app_Debug CMakeFiles/app.dir/main.cpp.o CMakeFiles/app.dir/src/Bishop.cpp.o CMakeFiles/app.dir/src/Board.cc.o CMakeFiles/app.dir/src/Fen.cc.o CMakeFiles/app.dir/src/King.cc.o CMakeFiles/app.dir/src/Knight.cc.o CMakeFiles/app.dir/src/Pawn.cc.o CMakeFiles/app.dir/src/Piece.cc.o CMakeFiles/app.dir/src/Queen.cc.o CMakeFiles/app.dir/src/Rook.cc.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = CMakeFiles/app.dir
   POST_BUILD = :

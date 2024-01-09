@@ -8,4 +8,18 @@ add_executable(app main.cpp
         lib/Board.h
         lib/Bishop.h
         lib/King.h
-        lib/Knight.h)
+        lib/Knight.h
+        lib/Pawn.h
+        lib/Piece.h
+        lib/Queen.h
+        lib/Rook.h
+        src/Bishop.cpp
+        src/Board.cc
+        src/Fen.cc
+        src/King.cc
+        src/Knight.cc
+        src/Pawn.cc
+        src/Piece.cc
+        src/Queen.cc
+        src/Rook.cc
+)
