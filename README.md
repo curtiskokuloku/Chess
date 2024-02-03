@@ -1,14 +1,10 @@
-# Chess - A Simple Implementation
+# Terminal Chess Master
 
 <img src="chess-demo.gif" width="400"/>
 
 ## Description
 
-> This chess program provides a digital platform for users to play the classic game of chess.
-> It's designed to allow users to make legal moves based on the standard chess rules,
-> offering an engaging experience for both beginners and seasoned players.
-> The program utilizes object-oriented programming principles in C++ to create a
-> structured and modular chess environment.
+> C++ program enabling chess play in the terminal. Designed for simplicity and engagement, catering to players of all levels. Highlights object-oriented programming principles for a structured and modular chess environment.
 
 ## Features
 
